@@ -7460,12 +7460,12 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .97;
     background-image: url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background: -moz-linear-gradient(45deg, #004242de 0%, #000000 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #004242de), color-stop(100%, #000000));
-    background: -webkit-linear-gradient(45deg, #004242de 0%, #000000 100%);
-    background: -o-linear-gradient(45deg, #004242de 0%, #000000 100%);
-    background: -ms-linear-gradient(45deg, #004242de 0%, #000000 100%);
-    background: linear-gradient(45deg, #004242de 0%, #000000 100%);
+    background: -moz-linear-gradient(45deg, url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') 0%, #000000 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(45deg, url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') 0%, #000000 100%);
+    background: -o-linear-gradient(45deg, url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') 0%, #000000 100%);
+    background: -ms-linear-gradient(45deg, url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') 0%, #000000 100%);
+    background: linear-gradient(45deg, url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') 0%, #000000 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004242de', endColorstr='#000000', GradientType=1 ); }
 
 #particles-js {
